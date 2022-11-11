@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/kovalov-mykyta-test/static/css/main.2610b7cd.css",
+    "main.js": "/kovalov-mykyta-test/static/js/main.5c6efc97.js",
+    "static/media/spinner.jpg": "/kovalov-mykyta-test/static/media/spinner.afa973eee05e0ebff95a.jpg",
+    "index.html": "/kovalov-mykyta-test/index.html",
+    "main.2610b7cd.css.map": "/kovalov-mykyta-test/static/css/main.2610b7cd.css.map",
+    "main.5c6efc97.js.map": "/kovalov-mykyta-test/static/js/main.5c6efc97.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2610b7cd.css",
+    "static/js/main.5c6efc97.js"
+  ]
+}
