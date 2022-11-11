@@ -1,0 +1,150 @@
+.job {
+  display: flex;
+  // align-items: center;
+  justify-content: space-between;
+  flex-shrink: 1;
+  padding: 24px 16px;
+  position: relative;
+
+  //max-height: 164px;
+  background: #ffffff;
+  box-shadow: 2px 1px 7px rgba(0, 0, 0, 0.08),
+    0px 2px 1px -1px rgba(0, 0, 0, 0.04), 0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+
+  @media (max-width: 575px) {
+    background: #eff0f5;
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+
+    @media (max-width: 575px) {
+      padding-top: 14px;
+    }
+  }
+
+  &__picture {
+    max-width: 85px;
+    max-height: 85px;
+    margin-right: 26px;
+    align-self: flex-start;
+    justify-content: center;
+
+    @media (max-width: 575px) {
+      max-width: 66px;
+      max-height: 66px;
+      margin-right: 19px;
+    }
+
+    img {
+      width: 85px;
+      height: 85px;
+      display: inline-block;
+      border-radius: 100%;
+
+      @media (max-width: 575px) {
+        width: 66px;
+        height: 66px;
+      }
+    }
+  }
+
+  &__text {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    //min-height: 116px;
+    //width: 956px;
+
+    @media (max-width: 575px) {
+      align-items: center;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 24px;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  &__text-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+
+    letter-spacing: -0.625px;
+
+    color: #3a4562;
+
+    @media (max-width: 575px) {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
+  // why not to create common text class ???
+  &__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #878d9d;
+  }
+
+  &__text-address {
+    margin-top: 8px;
+  }
+
+  &__text-location {
+    margin-top: 8px;
+  }
+
+  &__post-time {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    //width: 138px;
+    //height: 116px;
+
+    .job__mark {
+      width: 32px;
+      height: 32px;
+      background: 0;
+      border: 0;
+      cursor: pointer;
+
+      @media (max-width: 575px) {
+        display: none;
+      }
+    }
+
+    .job__data {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 25px;
+
+      text-align: center;
+      letter-spacing: 0.23619px;
+
+      color: #878d9d;
+
+      @media (max-width: 575px) {
+        position: absolute;
+        top: 13px;
+        right: 16px;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+      }
+    }
+  }
+}
+
+.job_mbot {
+  margin-bottom: 8px;
+}
